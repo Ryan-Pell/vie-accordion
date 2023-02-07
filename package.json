@@ -1,5 +1,5 @@
 {
-  "name": "vue-accordion",
+  "name": "@ryanpell/vue-accordion",
   "description": "Accordion Transition animation for Vue 3",
   "version": "1.1.0",
   "author": "Ryan Pell <ryan@ryanpell.co.uk>",
@@ -20,6 +20,7 @@
     "vue",
     "vue 3"
   ],
+  "repository": "Ryan-Pell/vue-accordion",
   "scripts": {
     "build": "vue-tsc && vite build"
   },
