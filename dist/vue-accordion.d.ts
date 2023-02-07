@@ -1,11 +1,18 @@
-declare const _default: import("vue").DefineComponent<Readonly<{
+import type { AllowedComponentProps } from 'vue';
+import type { ComponentCustomProps } from 'vue';
+import type { ComponentOptionsMixin } from 'vue';
+import type { DefineComponent } from 'vue';
+import type { ExtractPropTypes } from 'vue';
+import type { VNodeProps } from 'vue';
+
+export declare const accordion: DefineComponent<Readonly<{
     visible?: any;
     style?: any;
     class?: any;
 }>, unknown, unknown, {}, {
     close(el: HTMLElement): void;
     open(el: HTMLElement): void;
-}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, {}, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<import("vue").ExtractPropTypes<Readonly<{
+}, ComponentOptionsMixin, ComponentOptionsMixin, {}, string, VNodeProps & AllowedComponentProps & ComponentCustomProps, Readonly<ExtractPropTypes<Readonly<{
     visible?: any;
     style?: any;
     class?: any;
@@ -14,4 +21,5 @@ declare const _default: import("vue").DefineComponent<Readonly<{
     readonly style?: any;
     readonly class?: any;
 }>;
-export default _default;
+
+export { }

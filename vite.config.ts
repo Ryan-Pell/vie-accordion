@@ -7,7 +7,13 @@ const packageJson = require('./package.json')
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [ vue(), dts() ],
+  plugins: [ vue(), dts(
+    {
+      staticImport: true,
+      rollupTypes: true,
+      insertTypesEntry: true
+    }
+  )],
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/main.ts'),
