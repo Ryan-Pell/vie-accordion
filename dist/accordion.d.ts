@@ -5,7 +5,7 @@ import type { DefineComponent } from 'vue';
 import type { ExtractPropTypes } from 'vue';
 import type { VNodeProps } from 'vue';
 
-export declare const accordion: DefineComponent<Readonly<{
+declare const _sfc_main: DefineComponent<Readonly<{
     visible?: any;
     style?: any;
     class?: any;
@@ -21,5 +21,6 @@ export declare const accordion: DefineComponent<Readonly<{
     readonly style?: any;
     readonly class?: any;
 }>;
+export default _sfc_main;
 
 export { }

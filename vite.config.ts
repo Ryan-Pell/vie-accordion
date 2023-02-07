@@ -1,9 +1,9 @@
 const path = require('path');
 const { defineConfig } = require('vite');
 const vue = require('@vitejs/plugin-vue');
-const dts = require('vite-plugin-dts')
+const dts = require('vite-plugin-dts');
 
-const packageJson = require('./package.json')
+const packageJson = 'accordion';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -17,8 +17,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/main.ts'),
-      name: packageJson.name,
-      fileName: (format) => `${packageJson.name}.${format}.js`,
+      name: packageJson,
+      fileName: (format) => `${packageJson}.${format}.js`,
     },
     rollupOptions: {
       external: ['vue'],

@@ -1,17 +1,17 @@
 {
   "name": "@ryanpell/vue-accordion",
   "description": "Accordion Transition animation for Vue 3",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Ryan Pell <ryan@ryanpell.co.uk>",
-  "main": "./dist/vue-accordion.es.js",
-  "module": "./dist/vue-accordion.umd.js",
-  "types": "./dist/vue-accordion.d.ts",
+  "main": "./dist/accordion.es.js",
+  "module": "./dist/accordion.umd.js",
+  "types": "./dist/accordion.d.ts",
   "license": "MIT",
   "exports": {
     ".": {
-      "types": "./dist/vue-accordion.d.ts",
-      "import": "./dist/vue-accordion.es.js",
-      "require": "./dist/vue-accordion.umd.js"
+      "types": "./dist/accordion.d.ts",
+      "import": "./dist/accordion.es.js",
+      "require": "./dist/accordion.umd.js"
     }
   },
   "keywords": [
