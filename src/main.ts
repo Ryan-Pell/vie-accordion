@@ -1,2 +1,2 @@
-import accordion from './accordion.vue'
+import accordion from '../dist/vue-accordion'
 export default accordion

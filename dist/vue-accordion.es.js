@@ -1,5 +1,5 @@
-import { defineComponent as l, Transition as r, openBlock as a, createBlock as i, withCtx as c, withDirectives as p, createElementVNode as d, normalizeStyle as f, normalizeClass as v, renderSlot as h, vShow as m } from "vue";
-const u = l({
+import { defineComponent as a, Transition as r, openBlock as l, createBlock as i, withCtx as c, withDirectives as p, createElementVNode as d, normalizeStyle as f, normalizeClass as v, renderSlot as h, vShow as m } from "vue";
+const u = a({
   name: "accordion",
   props: ["visible", "style", "class"],
   components: { Transition: r },
@@ -18,7 +18,7 @@ const u = l({
   return o;
 };
 function B(e, n, o, t, s, E) {
-  return a(), i(r, {
+  return l(), i(r, {
     onBeforeEnter: e.close,
     onLeave: e.close,
     onEnter: e.open,
@@ -39,5 +39,5 @@ function B(e, n, o, t, s, E) {
 }
 const g = /* @__PURE__ */ y(u, [["render", B]]);
 export {
-  g as accordion
+  g as default
 };
