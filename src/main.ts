@@ -1,1 +1,2 @@
-export { default as accordion } from './accordion.vue'
+import accordion from './accordion.vue'
+export default accordion
