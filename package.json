@@ -6,6 +6,7 @@
   "main": "./dist/vue-accordion.es.js",
   "module": "./dist/vue-accordion.umd.js",
   "types": "./dist/vue-accordion.d.ts",
+  "license": "MIT",
   "exports": {
     ".": {
       "types": "./dist/vue-accordion.d.ts",
