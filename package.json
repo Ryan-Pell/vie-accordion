@@ -1,7 +1,7 @@
 {
   "name": "vue-accordion",
   "description": "Accordion Transition animation for Vue 3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Ryan Pell <ryan@ryanpell.co.uk>",
   "main": "./dist/vue-accordion.es.js",
   "module": "./dist/vue-accordion.umd.js",
