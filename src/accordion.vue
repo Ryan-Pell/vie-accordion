@@ -8,10 +8,15 @@
 
 <script lang="ts">
 import { defineComponent, Transition } from 'vue';
+import type { PropType } from 'vue';
 
 export default defineComponent({
   name: "accordion",
-  props: [ 'visible', 'style', 'class' ],
+  props: {
+    visible: { type: Boolean, required: true},
+    style: Object as PropType<any>,
+    class: Object as PropType<any>
+  },
   components: { Transition },
   methods: {
     close (el: HTMLElement) { el.style.height = '0' },
