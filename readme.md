@@ -28,8 +28,7 @@ Below is a simple example of the vue-accordion. The UI click of the details DIV 
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import accordion from 'vue-accordion-dev'
-// import { accordion } from '@ryanpell/vue-accordion';
+import accordion from '@ryanpell/vue-accordion';
 
 export default defineComponent({
   components: { accordion },
