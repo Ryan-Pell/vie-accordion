@@ -1,7 +1,12 @@
 import { defineComponent as a, Transition as r, openBlock as l, createBlock as i, withCtx as c, withDirectives as p, createElementVNode as d, normalizeStyle as f, normalizeClass as v, renderSlot as h, vShow as m } from "vue";
 const u = a({
   name: "accordion",
-  props: ["visible", "style", "class"],
+  // props: [ 'visible', 'style', 'class' ],
+  props: {
+    visible: { type: Boolean, required: !0 },
+    style: Object,
+    class: Object
+  },
   components: { Transition: r },
   methods: {
     close(e) {
@@ -37,7 +42,7 @@ function B(e, n, o, t, s, E) {
     _: 3
   }, 8, ["onBeforeEnter", "onLeave", "onEnter", "onBeforeLeave"]);
 }
-const g = /* @__PURE__ */ y(u, [["render", B]]);
+const b = /* @__PURE__ */ y(u, [["render", B]]);
 export {
-  g as default
+  b as default
 };
