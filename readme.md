@@ -40,4 +40,17 @@ export default defineComponent({
 ```
 
 ### Props
-The component has the following props that can passed 
+The component has the following props that can passed;
+
+#### Visible
+**Type: Boolean**  
+**Require**  
+This will control the state of the accordion content and is required for the operation of the component.
+
+#### Style
+**Type: Any**  
+This can be used to pass any addition style though to the container element inline. The transition style can also be set from here.
+
+#### Class
+**Type: Any**  
+This can be used to pass though any class styling.
