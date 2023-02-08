@@ -1,12 +1,15 @@
 # @ryanpell/vue-accordion
-
 Accordion Transition animation for Vue 3
+
+---
 
 ## Install
 **node.js**:
 ```bash
 npm install @ryanpell/vue-accordion --save
 ```
+
+---
 
 ## Usage
 Below is a simple example of the vue-accordion. The UI click of the details DIV will toggle the state of the accordion.
@@ -38,6 +41,8 @@ export default defineComponent({
 })
 </script>
 ```
+
+---
 
 ### Props
 The component has the following props that can passed;
