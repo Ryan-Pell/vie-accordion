@@ -49,9 +49,9 @@ The component has the following props that can passed;
 This will control the state of the accordion content and is required for the operation of the component.
 
 #### Style
-**Type: Any**  
+**Type: CSSProperties**  
 This can be used to pass any addition style though to the container element inline. The transition style can also be set from here.
 
 #### Class
-**Type: Any**  
+**Type: String *or* String[]**  
 This can be used to pass though any class styling.
