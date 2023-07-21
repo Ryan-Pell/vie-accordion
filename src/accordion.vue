@@ -15,7 +15,7 @@ export default defineComponent({
   props: {
     visible: { type: Boolean, required: true},
     style: Object as PropType<CSSProperties>,
-    class: String,
+    class: { type: [String, Array<String>], required: false },
   },
   components: { Transition },
   methods: {

@@ -4,7 +4,7 @@ const u = a({
   props: {
     visible: { type: Boolean, required: !0 },
     style: Object,
-    class: String
+    class: { type: [String, Array], required: !1 }
   },
   components: { Transition: s },
   methods: {
