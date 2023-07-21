@@ -1,29 +1,30 @@
-import type { AllowedComponentProps } from 'vue';
-import type { ComponentCustomProps } from 'vue';
-import type { ComponentOptionsMixin } from 'vue';
-import type { DefineComponent } from 'vue';
-import type { ExtractPropTypes } from 'vue';
-import type { PropType } from 'vue';
-import type { VNodeProps } from 'vue';
+import { AllowedComponentProps } from 'vue';
+import { ComponentCustomProps } from 'vue';
+import { ComponentOptionsMixin } from 'vue';
+import { CSSProperties } from 'vue';
+import { DefineComponent } from 'vue';
+import { ExtractPropTypes } from 'vue';
+import { PropType } from 'vue';
+import { VNodeProps } from 'vue';
 
-declare const _sfc_main: DefineComponent<{
+declare const _default: DefineComponent<{
     visible: {
         type: BooleanConstructor;
         required: true;
     };
-    style: PropType<any>;
-    class: PropType<any>;
+    style: PropType<CSSProperties>;
+    class: StringConstructor;
 }, unknown, unknown, {}, {
-    close(el: HTMLElement): void;
-    open(el: HTMLElement): void;
+    close(el: Element): void;
+    open(el: Element): void;
 }, ComponentOptionsMixin, ComponentOptionsMixin, {}, string, VNodeProps & AllowedComponentProps & ComponentCustomProps, Readonly<ExtractPropTypes<{
     visible: {
         type: BooleanConstructor;
         required: true;
     };
-    style: PropType<any>;
-    class: PropType<any>;
-}>>, {}>;
-export default _sfc_main;
+    style: PropType<CSSProperties>;
+    class: StringConstructor;
+}>>, {}, {}>;
+export default _default;
 
 export { }
